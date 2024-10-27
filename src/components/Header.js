@@ -4,9 +4,7 @@ function Header() {
   const { currentTrackName } = useMusicPlayer();
   return (
     <div className="header">
-        <marquee behavior="scroll" direction="right">
-            {currentTrackName}
-        </marquee>
+        {currentTrackName}
     </div>
   );
 }
